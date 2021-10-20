@@ -1,0 +1,45 @@
+name: fakkeltocht
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  async:
+  bloc:
+  flutter:
+    sdk: flutter
+  flutter_bloc:
+  flutter_circle_color_picker:
+  freezed_annotation:
+  get_it:
+  google_fonts:
+  hive:
+  hive_flutter:
+  http:
+  logger:
+  path_provider:
+  provider:
+  window_size:
+    git:
+      url: git://github.com/google/flutter-desktop-embedding.git
+      path: plugins/window_size
+
+dev_dependencies:
+  build_runner:
+  flutter_launcher_icons:
+  freezed:
+  hive_generator:
+  lint:
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Breathe
+      fonts:
+        - asset: assets/fonts/Breathe-Press.ttf
+        - asset: assets/fonts/Breathe-Regular.ttf
+  assets:
+    - assets/images/
