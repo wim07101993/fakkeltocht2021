@@ -34,7 +34,7 @@ class SymbolController extends ValueNotifier<int> {
   int _valueIndex;
   bool _isRolling;
 
-  static const List<int> _values = [-1, 21, 48, 73, 101];
+  static const List<int> _values = [-1, 9, 21, 48, 73, 101];
 
   bool get isRolling => _isRolling;
 

@@ -12,7 +12,7 @@ class Heart extends StatefulWidget {
 
 class _HeartState extends State<Heart> {
   static const end = 0.25;
-  static const start = 0.9;
+  static const start = 0.87;
   double previousValue = start;
 
   @override
